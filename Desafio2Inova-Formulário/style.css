@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    background-color: #F37820;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+
+}
+
+.container {
+    background-color: #ffffff; 
+    padding: 20px; 
+    border-radius: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    box-sizing: 0 3px 5px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    width: 100%; 
+    margin: 14px auto; 
+  }
+
+.header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.form {
+    padding: 18px;
+}
+
+.form-content {
+    margin-bottom: 8px;
+    padding-bottom: 18px;
+    position: relative;
+}
+
+.form-content input {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid #dfdfdf;
+    outline: none;
+}
+
+.form-content a {
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    visibility: hidden;
+}
+
+.buttons {
+    display: flex;
+    background-color: #ffffff;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.buttons #cancelar {
+    background-color: #ffffff;
+    width: 250px;
+    height: 40px;
+    margin: 0 5px;
+    border: 1px solid #FF9F76;
+    font-weight: 600;
+    color: #FF9F76;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.buttons #cancelar:hover {
+    background-color: #f9f9f9; 
+}
+
+.buttons #enviar {
+    background-color: #F37820;
+    width: 250px;
+    height: 40px;
+    margin: 0 5px;
+    border: 1px solid #FF9F76;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.buttons #enviar:hover {
+    background-color: #FFA94D; 
+    border-color: #FFA94D; 
+}
+
+.uploaders {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.form-content.error input{
+    border-color: #ff3b25;
+}
+
+.form-content.error a{
+    color: #ff3b25;
+    visibility: visible;
+    font-size: 12px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.blocoComprovanteResidencia {
+    border: 1px solid;
+    border-color: #097e90;
+    padding: 3px;
+    width: 90px;
+    height:30px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #097e90;
+    text-align: center;
+}
+
+.blocoComprovanteResidencia:hover {
+    background-color: #f9f9f9;
+}
+
+
+.blocoIdentidade {
+    border: 1px solid;
+    border-color: #097e90;
+    padding: 3px;
+    width: 90px;
+    height:30px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #097e90;
+    text-align: center;
+}
+
+.blocoIdentidade:hover {
+    background-color: #f9f9f9;
+}
+
+.blocoComprovanteResidencia #residencia {
+    cursor: pointer;
+}
+
+.blocoIdentidade #identidade {
+    cursor: pointer;
+}
+
+.Residencia {
+    font-size: 11px;
+    display: flex;
+    border: 1px solid;
+    border-color: #cacaca;
+    border-radius: 6px;
+    padding: 15px;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+}
+
+.Identidade {
+    font-size: 11px;
+    display: flex;
+    border: 1px solid;
+    border-color: #cacaca;
+    border-radius: 6px;
+    padding: 15px;
+    width: 300px;
+    height: 60px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.imgup {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.img {
+    width: 600px;
+  }
